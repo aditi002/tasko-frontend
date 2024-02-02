@@ -1,0 +1,81 @@
+html,
+body {
+
+  background: #232323;
+
+}
+.container {
+  background-image: url('./assets/images/pic.avif');
+  max-width: 600px;
+  margin: 80px 155px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+.container * {
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.login-icon {
+  font-family: 'Trattatello', fantasy;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(203, 110, 110);
+}
+
+.login-form {
+  background: #5b5b5b8d;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+
+}
+
+.login-form .login-title {
+  font-size: 38px;
+  font-weight: 300;
+  margin: 0px 0px 45px 0px;
+  font-weight: bold;
+}
+
+.login-form .login-input {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #50d1fc;
+  background: #212121;
+  border-radius: 10px;
+  color: aliceblue;
+  
+}
+
+.login-form .login-input.button {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  width: 150px;
+  background: #9317bc;
+  font-weight: bold;
+}
+
+.login-forgot {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #999;
+}
+
+.login-signup {
+  color: #ffffff;
+  margin: 20px 0px;
+  font-size: 14px;
+}
+
+.login-signup a {
+  color: #50d1fc;
+  font-weight: 600;
+}
